@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+main{width: 100%; min-height: 500px}
+.gach-chan{border-bottom: 4px solid darkred;color: black;font-size: 60px}
+.vien{width: 100%;min-height: 200px;border: 0px solid darkred;padding: 10px;margin-top: 30px }
+.text-do{color: darkred}
+.hinh{width: 100%;position: relative;overflow: hidden}
+.icon{width: 80%; height: 40px;position: absolute;left: 10%;top: -30%;display: flex ; justify-content: space-around;transition: all 1s}
+.icon a{width: 40px;height: 40px;background-color: darkred;color: white;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none}
+.icon a:hover{background-color: #CCCCCC;color: darkred}
+.hinh:hover .icon{	top: 40%;}
+#feature{width: 100%;min-height: 700px;background-color: #1D1D1D;background-repeat: no-repeat;background-size: cover;background-position: bottom center}
+.gach-chan1{border-bottom: 4px solid DARKred;color: white;font-size: 60px}
+header{width: 100%;height: 100px;background-color: #020202}
+.logo{float: left;padding-top: 5.5px}
+.menu{float: right;padding-top: 35px;}
+
+.menu a{padding: 10px 25px;text-decoration: none;font-size: 25px;color: #FFFFFF;text-transform: capitalize}
+.menu a:hover{color: forestgreen}
+
+.b{text-align: center;color: white}
+#slide1 .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide1 .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+
+
+.text-center{text-align: center}
+.text-trang{color: white}
+.i{color: wheat}
+footer a{text-decoration:none;color: white}
+footer{width: 100%;min-height: 130px;background-color: black;text-align: center;padding: 20px}
